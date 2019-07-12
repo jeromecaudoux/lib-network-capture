@@ -1,0 +1,6 @@
+lib/
+build/
+bin/*
+*.iml
+.idea
+debian/usr/

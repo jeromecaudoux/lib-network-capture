@@ -1,0 +1,13 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(network-security-1)
+
+ADD_SUBDIRECTORY(generic-list/)
+ADD_SUBDIRECTORY(core/)
+
+SET(NS1_BINARY_NAME ns1)
+ADD_EXECUTABLE(${NS1_BINARY_NAME} main.c)
+
+IF (UNIX)
+  SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -W -Wall -Wextra -Werror")
+endif (UNIX)
