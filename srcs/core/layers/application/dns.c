@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "layer_data_link_ethernet.h"
-#include "layer_application_dns.h"
-#include "layer_network_ipv4.h"
-#include "../network_capture.h"
-#include "../xexit.h"
+#include "../link/ethernet.h"
+#include "dns.h"
+#include "../network/ipv4.h"
+#include "../../network_capture.h"
+#include "../../xexit.h"
 #include <string.h>
 
 void free_layer_application_dns(layer_application_dns *la_dns)

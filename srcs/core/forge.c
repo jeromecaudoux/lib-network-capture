@@ -9,7 +9,7 @@
 
 #include "forge.h"
 #include "xexit.h"
-#include "layers/layer_application_dns.h"
+#include "layers/application/dns.h"
 
 static void convert_to_dns_name_format(char* data, const char* hostname)
 {

@@ -8,12 +8,12 @@ SET(HEADER
   pcap.h
   packet.h
   forge.h
-  layers/layer_data_link_ethernet.h
-  layers/layer_network_ipv4.h
-  layers/layer_transport_tcp.h
-  layers/layer_transport_udp.h
-  layers/layer_application_http.h
-  layers/layer_application_dns.h
+  layers/link/ethernet.h
+  layers/network/ipv4.h
+  layers/transport/tcp.h
+  layers/transport/udp.h
+  layers/application/http.h
+  layers/application/dns.h
   )
 
 SET(SOURCES
@@ -22,12 +22,12 @@ SET(SOURCES
   pcap.c
   packet.c
   forge.c
-  layers/layer_data_link_ethernet.c
-  layers/layer_network_ipv4.c
-  layers/layer_transport_tcp.c
-  layers/layer_transport_udp.c
-  layers/layer_application_http.c
-  layers/layer_application_dns.c
+  layers/link/ethernet.c
+  layers/network/ipv4.c
+  layers/transport/tcp.c
+  layers/transport/udp.c
+  layers/application/http.c
+  layers/application/dns.c
   )
 
 SET(NS1_CORE_LIBRARY_NAME ns1-core)

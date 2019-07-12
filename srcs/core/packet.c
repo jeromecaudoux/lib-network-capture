@@ -1,11 +1,11 @@
 #include <time.h>
 #include <stdlib.h>
-#include "layers/layer_data_link_ethernet.h"
-#include "layers/layer_network_ipv4.h"
-#include "layers/layer_transport_tcp.h"
-#include "layers/layer_transport_udp.h"
-#include "layers/layer_application_http.h"
-#include "layers/layer_application_dns.h"
+#include "layers/link/ethernet.h"
+#include "layers/network/ipv4.h"
+#include "layers/transport/tcp.h"
+#include "layers/transport/udp.h"
+#include "layers/application/http.h"
+#include "layers/application/dns.h"
 #include "packet.h"
 #include "xexit.h"
 

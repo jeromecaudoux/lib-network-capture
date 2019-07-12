@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "layer_network_ipv4.h"
-#include "layer_transport_tcp.h"
-#include "layer_transport_udp.h"
-#include "../xexit.h"
+#include "ipv4.h"
+#include "../transport/tcp.h"
+#include "../transport/udp.h"
+#include "../../xexit.h"
 
 static void parse_next_layer(uint8_t protocol, t_list data, u_char *buffer)
 {

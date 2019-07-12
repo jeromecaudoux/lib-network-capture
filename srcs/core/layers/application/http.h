@@ -3,8 +3,8 @@
 
 #include <stdint.h>
 #include <sys/types.h>
-#include "layer_list_node.h"
-#include "../../generic-list/generic_list.h"
+#include "../layer_list_node.h"
+#include "../../../generic-list/generic_list.h"
 
 typedef struct s_layer_application_http {
   layer_node	header;

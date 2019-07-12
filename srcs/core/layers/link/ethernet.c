@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "layer_data_link_ethernet.h"
-#include "layer_network_ipv4.h"
-#include "../xexit.h"
+#include "ethernet.h"
+#include "../network/ipv4.h"
+#include "../../xexit.h"
 #include <arpa/inet.h>
 
 static const char *get_protocol_name(uint16_t protocol)

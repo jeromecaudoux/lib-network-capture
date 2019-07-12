@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "layer_transport_tcp.h"
-#include "layer_transport_udp.h"
-#include "layer_application_dns.h"
-#include "../xexit.h"
+#include "tcp.h"
+#include "udp.h"
+#include "../application/dns.h"
+#include "../../xexit.h"
 
 static const struct application supported_applications[] = {
   {53, "DNS", parse_layer_application_dns},

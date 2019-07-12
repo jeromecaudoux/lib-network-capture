@@ -3,8 +3,8 @@
 
 #include <netinet/ether.h>
 #include <sys/types.h>
-#include "layer_list_node.h"
-#include "../../generic-list/generic_list.h"
+#include "../layer_list_node.h"
+#include "../../../generic-list/generic_list.h"
 
 /*
  * Documentation :

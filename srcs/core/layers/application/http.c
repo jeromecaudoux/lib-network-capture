@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "layer_data_link_ethernet.h"
-#include "layer_application_http.h"
-#include "layer_network_ipv4.h"
-#include "../packet.h"
-#include "../xexit.h"
+#include "../link/ethernet.h"
+#include "http.h"
+#include "../network/ipv4.h"
+#include "../../packet.h"
+#include "../../xexit.h"
 
 static t_bool find_node(void *value, void *param)
 {

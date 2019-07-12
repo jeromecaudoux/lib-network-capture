@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "layer_transport_tcp.h"
-#include "layer_application_http.h"
-#include "layer_application_dns.h"
-#include "../xexit.h"
+#include "tcp.h"
+#include "../application/http.h"
+#include "../application/dns.h"
+#include "../../xexit.h"
 
 static const struct application supported_applications[] = {
   {80, "HTTP", parse_layer_application_http},
